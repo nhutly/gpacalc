@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+
+</head>
+
+<body>
+    <section>
+
+        <table id="table">
+            <tr>
+                <th>Course Name</th>
+                <th>Credit</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="course0" name="course1">
+                </td>
+                <td>
+                    <input type="number" id="credit0" name="credit0" min="0">
+                </td>
+                <td>
+                    <input type="number" id="grade0" name="grade0" min="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="course1" name="course1">
+                </td>
+                <td>
+                    <input type="number" id="credit1" name="credit1" min="0">
+                </td>
+                <td>
+                    <input type="number" id="grade1" name="grade1" min="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="course2" name="course2">
+                </td>
+                <td>
+                    <input type="number" id="credit2" name="credit2" min="0">
+                </td>
+                <td>
+                    <input type="number" id="grade2" name="grade2" min="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="course3" name="course3">
+                </td>
+                <td>
+                    <input type="number" id="credit3" name="credit3" min="0">
+                </td>
+                <td>
+                    <input type="number" id="grade3" name="grade3" min="0">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="course4" name="course5">
+                </td>
+                <td>
+                    <input type="number" id="credit4" name="credit5" min="0">
+                </td>
+                <td>
+                    <input type="number" id="grade4" name="grade5" min="0">
+                </td>
+            </tr>
+
+        </table>
+
+
+
+        <button onclick="calculateGPA()">Calculate</button>
+        <p id="result">Your GPA is </p>
+    </section>
+
+
+</body>
+
+</html>
